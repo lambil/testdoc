@@ -289,3 +289,19 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+# ------------ ROBOT -----------------
+
+extensions = ['sphinxcontrib_robotframework']
+
+# Enable Robot Framework tests during Sphinx compilation
+sphinxcontrib_robotframework_enabled = True
+
+# Hide Robot Framework syntax from the Sphinx output by default
+# (preferred, when you use the extension for scripted screenshots)
+sphinxcontrib_robotframework_quiet = True
+
+# Configure Robot Frameowrk tests to use Firefox
+sphinxcontrib_robotframework_variables = {
+'BROWSER': 'Firefox'
+}
