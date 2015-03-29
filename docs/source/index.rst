@@ -12,6 +12,9 @@ Contents:
    :maxdepth: 2
 
 
+** titre1 **
+** titre2 **
+
 
 Indices and tables
 ==================
