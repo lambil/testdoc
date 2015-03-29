@@ -257,18 +257,17 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
 
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 #-------------------BOOTSTRAP -------------
 
-import sphinx_bootstrap_theme
-
-
-# Activate the theme.
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-
-# Theme options are theme-specific and customize the look and feel of a
-# theme further.
-html_theme_options = {
+if not on_rtd: # only import and set the theme if we're building docs locally
+  import sphinx_bootstrap_theme
+  # Activate the theme.
+  html_theme = 'bootstrap'
+  html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+  # Theme options are theme-specific and customize the look and feel of a
+  # theme further.
+  html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
     'navbar_title': "Documentation",
 
@@ -329,7 +328,7 @@ html_theme_options = {
     # Choose Bootstrap version.
     # Values: "3" (default) or "2" (in quotes)
     'bootstrap_version': "3",
-}
+  }
 
 #------------------- ROBOT ---------------
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
