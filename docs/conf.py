@@ -332,7 +332,7 @@ if not on_rtd: # only import and set the theme if we're building docs locally
 
 #------------------- ROBOT ---------------
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-on_rtd = 'False'
+on_rtd = ''
 
 if not on_rtd: # only import and set the theme if we're building docs locally
 #  import sphinx_rtd_theme

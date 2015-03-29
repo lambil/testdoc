@@ -14,7 +14,6 @@
    *** Test Cases ***
    Valid Login
        Open Browser To Login Page
-       Capture page screenshot  pageopen1.png
        Input Username    demo
        Input Password    mode
        Capture page screenshot  robotframework.png
