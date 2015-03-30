@@ -18,7 +18,7 @@ Contents:
 
 blabla
 
-*** Mon titre ***
+*** Mon beau titre ***
 
 .. note::
   Ma note
