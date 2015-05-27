@@ -14,11 +14,12 @@ Contents:
    :maxdepth: 2
 
    dms/index.rst
+   pm.rst
 
 
 blabla
 
-*** Mon titre ***
+*** Mon autre titre ***
 
 .. note::
   Ma note
