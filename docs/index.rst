@@ -12,12 +12,13 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
 
-   dms/index.rst
-   pm.rst
+   dms/dms.rst
+   cpskin/cpskin.rst
+   pm/pm.rst
 
 
-blabla
 
 *** Mon beau plus beau titre ***
 
