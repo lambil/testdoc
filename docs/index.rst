@@ -19,7 +19,7 @@ Contents:
 
 blabla
 
-*** Mon plus beau titre ***
+*** Mon beau plus beau titre ***
 
 .. note::
   Ma note
