@@ -15,6 +15,7 @@ Contents:
 .. note::
   Ma note
   et re-manote
+  et re-re-manotte
 
 .. seealso::
   Voir aussi ..
